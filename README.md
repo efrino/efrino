@@ -4,7 +4,7 @@
 
 ###
 
-<h1 align="center">You've reached me, Hi👋</h1>
+<h1 align="center">You've reached me, Hi buddy👋</h1>
 
 ###
 
@@ -35,7 +35,7 @@
 
 ###
 
-<h5 align="left">I'm Efrino from Sragen<br><br>- 🔭 I’m working as Backend Developer<br>- 📚 I'm currently learning Express + Prisma + PostgreSQL<br>- ⚡ In my free time I usually watch reels about code jokes ☠️<br>- ✈️ Focus mode activated</h5>
+<h5 align="left">My name is Efrino and ...<br><br>- 🔭 I’m working usually as a Backend Developer<br>- 📚 I'm currently learning Express + Prisma + PostgreSQL<br>- ⚡ In my free time I usually watch reels about code jokes ☠️<br>- ✈️ Can we keep in touch?Cause i'd love to learn everything.</h5>
 
 ###
 
