@@ -1,132 +1,81 @@
-<div align="center">
-  <img height="200" src="https://media1.tenor.com/m/fgGhG5ZyRpUAAAAd/tbhss-pluie-paysage-rain-landscape.gif"  />
-</div>
+# Hi, I'm Efrino 👋
 
-###
+> *Full-Stack Developer · Building real systems for real problems*
 
-<h1 align="center">You've reached me, Hi buddy👋</h1>
+I'm a software engineer based in **Bekasi, Indonesia** with hands-on experience building production-grade systems — from industrial automation tools to AI-powered bots and mobile apps. I love connecting complex backend logic with clean, intuitive frontends.
 
-###
+---
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/efrinowep/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=Connect%20me%20in&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.instagram.com/efrinowep_" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=or%20follow%20my&color=E4405F&logoColor=magenta&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-</div>
+## 🛠 Tech Stack
 
-###
+**Frontend**
+![Vue 3](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=efrino.efrino&"  />
-</div>
+**Backend**
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 
-###
+**Database & Infra**
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-<br clear="both">
+**AI & Automation**
+![Groq](https://img.shields.io/badge/Groq_AI-F55036?style=flat-square&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bot-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
 
-<img align="right" height="200" src="https://media1.tenor.com/m/4sqAcJIE8JcAAAAd/hk416-airplane.gif"  />
+---
 
-###
+## 🚀 Featured Projects
 
-<h3 align="left">👩‍💻  About Me</h3>
+### 🤖 [EvrinoWEP WhatsApp Bot](https://github.com/efrino)
+AI-powered WhatsApp business bot with multi-provider fallback (Groq → Gemini → OpenRouter), fuzzy product matching, order flow, and Midtrans payment integration.
+> `Node.js` `Baileys` `Supabase` `Midtrans` `AI`
 
-###
+---
 
-<h5 align="left">My name is Efrino and ...<br><br>- 🔭 I’m working usually as a Backend Developer<br>- 📚 I'm currently learning Express + Prisma + PostgreSQL<br>- ⚡ In my free time I usually watch reels about code jokes ☠️<br>- ✈️ Can we keep in touch?Cause i'd love to learn everything.</h5>
+### 🎬 [YouTube Shorts Automation Pipeline](https://github.com/efrino)
+End-to-end content automation: AI script generation → TTS voiceover → video assembly → auto-upload to YouTube with Telegram notifications.
+> `Python` `FFmpeg` `Groq Llama` `edge-tts` `YouTube Data API v3`
 
-###
+---
 
-<h3 align="left">🛠 Language and tools</h3>
+### 📱 [Meca Learning App](https://github.com/efrino)
+Industrial learning mobile app with offline-first architecture. Google Drive as CMS, PDF/video caching, Supabase backend with RLS, and iOS build via Codemagic.
+> `Flutter` `Dart` `Supabase` `Hive` `Google Drive API`
 
-###
+---
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="40" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" height="40" alt="codeigniter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp logo"  />
-</div>
+## 💼 What I Build
 
-###
+- **REST APIs & Microservices** — NestJS, CodeIgniter, MySQL
+- **Real-time dashboards** — Vue 3 + TypeScript + WebSocket
+- **AI-integrated bots** — WhatsApp, Telegram, multi-model fallback chains
+- **Mobile apps** — Flutter, cross-platform iOS/Android
+- **Automation pipelines** — scraping, scheduling, media generation
+- **SAP integrations** — RFC calls via `node-rfc`, enterprise system bridging
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="40" alt="chrome logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="40" alt="trello logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="40" alt="mysql logo"  />
-</div>
+---
 
-###
+## 📊 GitHub Stats
 
-<h3 align="left">🔥   My Stats :</h3>
+![Efrino's GitHub Stats](https://github-readme-stats.vercel.app/api?username=efrino&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff)
 
-###
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=efrino&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff)
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=efrino&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="250" alt="stats graph" /> <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=efrino&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" /> <br>
-  <img src="https://streak-stats.demolab.com?user=efrino&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+---
 
-###
+## 📫 Get in Touch
 
-<br clear="both">
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/efrino)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:efrinowep@gmail.com)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=flat-square&logo=upwork&logoColor=white)](https://upwork.com)
 
-<div align="center">
-  <a href="https://open.spotify.com/user/31p5k7muvyisgpq4wmojqdgrwcce">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31p5k7muvyisgpq4wmojqdgrwcce&count=3&unique=true" alt="Spotify recently played"  />
-  </a>
-</div>
+---
 
-###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/efrino/count.svg?"  />
-</div>
-
-###
-
-<img src="https://raw.githubusercontent.com/efrino/efrino/output/snake.svg" alt="Snake animation" />
-
-###
+*"Sharing is caring, but don't forget to recognize it."*
