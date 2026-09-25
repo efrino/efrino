@@ -1,0 +1,59 @@
+name: Update featured projects
+
+on:
+  schedule: # every Monday 01:17 UTC (08:17 WIB)
+    - cron: "17 1 * * 1"
+  workflow_dispatch:
+    inputs:
+      sync_metadata:
+        description: "Also push repo descriptions & topics from .github/featured-projects.json (needs PROFILE_TOKEN secret)"
+        type: boolean
+        default: false
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/featured-projects.json"
+      - "scripts/featured_projects.py"
+      - ".github/workflows/featured-projects.yml"
+
+concurrency:
+  group: featured-projects
+  cancel-in-progress: false
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync repository descriptions & topics
+        if: ${{ inputs.sync_metadata }}
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: python scripts/featured_projects.py --sync-metadata
+
+      - name: Rank repositories and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/featured_projects.py
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh featured projects ranking"
+          git push

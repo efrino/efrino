@@ -1,0 +1,296 @@
+{
+  "owner": "efrino",
+  "featured_count": 6,
+  "more_count": 8,
+  "pinned": [],
+  "exclude": [
+    "efrino",
+    "efrinowep",
+    "Python",
+    "Javascript",
+    "rest_maj",
+    "ci-news",
+    "ci-vue",
+    "1mei",
+    "pygames",
+    "ippl",
+    "notes-web",
+    "notes-app"
+  ],
+  "repos": {
+    "efrino": {
+      "description": "Profile of Efrino Wahyu Eko Pambudi: Full-Stack Developer building industrial systems, mobile apps and AI automation.",
+      "topics": [
+        "profile-readme",
+        "portfolio",
+        "full-stack-developer",
+        "flutter",
+        "vue",
+        "indonesia"
+      ]
+    },
+    "efrinowep": {
+      "description": "Personal portfolio website: React, SCSS, GitHub API integration, light/dark theme.",
+      "homepage": "https://efrino.netlify.app",
+      "topics": [
+        "portfolio",
+        "react",
+        "scss",
+        "personal-website"
+      ]
+    },
+    "sto": {
+      "emoji": "🏷️",
+      "title": "STO Prep: Stock-Taking Tag System",
+      "summary": "Android app used on the shop floor for stock-taking (STO) at a manufacturing plant. Operators log in with their employee ID, look up parts, print QR tags on the handheld's built-in 58mm thermal printer and scan them back with the counted quantity. Cancellations go through an admin approval flow, and menus follow role-based permissions.",
+      "stack": [
+        "Flutter",
+        "SQLite",
+        "Thermal Printer",
+        "QR Scanner",
+        "REST API"
+      ],
+      "description": "Stock-taking (STO) Android app for a manufacturing plant: QR tag printing on 58mm thermal handhelds, scan & count, admin-approved cancellation, role-based access.",
+      "topics": [
+        "flutter",
+        "android",
+        "inventory",
+        "stock-opname",
+        "thermal-printer",
+        "qr-code",
+        "manufacturing"
+      ]
+    },
+    "nayea": {
+      "emoji": "🛍️",
+      "title": "Nayea: Modest Fashion E-commerce",
+      "summary": "Full storefront and admin panel for a hijab and modest-fashion brand: catalogue, cart, checkout and wishlist, live customer chat, order, payment and banner management, shipping-cost serverless functions and transactional order emails. Supabase Postgres secured with Row Level Security.",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Supabase",
+        "Vercel"
+      ],
+      "description": "E-commerce storefront + admin panel for a modest-fashion brand: catalogue, checkout, live chat, order & payment management, shipping-cost API. React, Vite, Tailwind, Supabase.",
+      "topics": [
+        "ecommerce",
+        "react",
+        "vite",
+        "tailwindcss",
+        "supabase",
+        "vercel",
+        "serverless"
+      ]
+    },
+    "meca_learning_app": {
+      "emoji": "📱",
+      "title": "Meca Learning: Industrial Training App",
+      "summary": "Training app for mechanics: learning modules, quizzes, error-code lookup and animations, with PDF, Excel and video lessons delivered from Google Drive and cached for offline use. Tracks learner activity, sends push notifications, includes an admin dashboard and builds for iOS through Codemagic.",
+      "stack": [
+        "Flutter",
+        "Riverpod",
+        "Supabase",
+        "Firebase",
+        "Hive",
+        "Codemagic"
+      ],
+      "description": "Industrial training app for mechanics: modules, quizzes, error-code lookup, offline PDF/video lessons from Google Drive, activity tracking, push notifications. Flutter + Supabase.",
+      "topics": [
+        "flutter",
+        "riverpod",
+        "supabase",
+        "firebase",
+        "e-learning",
+        "offline-first",
+        "google-drive-api"
+      ]
+    },
+    "admin-asto": {
+      "emoji": "🧑‍💼",
+      "title": "Meca Admin Console",
+      "summary": "Web admin console behind the Meca Learning app. Manages users, modules, quizzes, error codes, animations and activity logs, with bulk import of quizzes and error codes from Excel and Google Drive content integration.",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Supabase",
+        "Excel Import"
+      ],
+      "description": "Admin console for the Meca Learning app: users, modules, quizzes, error codes, activity logs, Excel bulk import. React + Supabase.",
+      "topics": [
+        "react",
+        "admin-dashboard",
+        "supabase",
+        "tailwindcss",
+        "excel-import"
+      ]
+    },
+    "rest_maj1": {
+      "emoji": "🏭",
+      "title": "Factory Operations REST Backend",
+      "summary": "JWT-secured REST backend for manufacturing operations with 40+ API controllers: inventory, stock and achievement, Andon pallet, kanban circulation, maintenance, forecasting, barcode and accounting, plus SAP integration endpoints (welding, plant service, reporting) and mobile APIs.",
+      "stack": [
+        "PHP",
+        "CodeIgniter",
+        "MySQL",
+        "JWT",
+        "SAP"
+      ],
+      "description": "REST backend for manufacturing operations: inventory, Andon, kanban, maintenance, forecasting and SAP integration endpoints. CodeIgniter + JWT + MySQL.",
+      "topics": [
+        "codeigniter",
+        "php",
+        "rest-api",
+        "jwt",
+        "sap",
+        "manufacturing",
+        "andon"
+      ]
+    },
+    "my_armada": {
+      "emoji": "🚚",
+      "title": "My Armada: Warehouse Scan Operations",
+      "summary": "Internal operations app for warehouse scanning: camera or manual barcode scan-in, scan-out and stock-taking, scan history, area management, and role-based permissions with in-app user management.",
+      "stack": [
+        "Flutter",
+        "Barcode Scanner",
+        "REST API"
+      ],
+      "description": "All-in-one internal operations app: barcode scan-in/scan-out, stock-taking, history, area & user management with role-based permissions. Flutter.",
+      "topics": [
+        "flutter",
+        "barcode-scanner",
+        "warehouse",
+        "inventory",
+        "manufacturing"
+      ]
+    },
+    "scan_gr": {
+      "emoji": "📥",
+      "title": "Scan GR: Offline-Ready Receiving Scanner",
+      "summary": "Barcode scanning app for goods receiving. Scans are queued locally when the network drops and synced later, with login, scan history and a lightweight drawer navigation.",
+      "stack": [
+        "Flutter",
+        "Barcode Scanner",
+        "Offline Queue"
+      ],
+      "description": "Goods-receiving barcode scanner with an offline pending-scan queue, history and login. Flutter.",
+      "topics": [
+        "flutter",
+        "barcode-scanner",
+        "offline-first",
+        "inventory"
+      ]
+    },
+    "wss-adm": {
+      "emoji": "🔎",
+      "title": "WSS Admin Scanner",
+      "summary": "Handheld scanner app for scan-in with audio and vibration feedback, scan history, user profile and PDF report printing.",
+      "stack": [
+        "Flutter",
+        "Barcode Scanner",
+        "PDF"
+      ],
+      "description": "Handheld scan-in app with audio/vibration feedback, history and PDF report printing. Flutter.",
+      "topics": [
+        "flutter",
+        "barcode-scanner",
+        "pdf",
+        "inventory"
+      ]
+    },
+    "mechanic-manual-api": {
+      "emoji": "🔧",
+      "title": "Mechanic Manual API",
+      "summary": "Express + MySQL backend for a mechanic manual app: JWT auth, modules, error codes, animations, activity logs and offline sync endpoints, hardened with Helmet, rate limiting and request validation.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "MySQL",
+        "JWT"
+      ],
+      "description": "REST API for a mechanic manual app: JWT auth, modules, error codes, activity logs, offline sync. Express + MySQL, Helmet, rate limiting.",
+      "topics": [
+        "nodejs",
+        "express",
+        "mysql",
+        "rest-api",
+        "jwt"
+      ]
+    },
+    "qc_model": {
+      "emoji": "🧠",
+      "title": "Stamping Defect Detection API",
+      "summary": "FastAPI inference service that runs a DETR object-detection model (Hugging Face Transformers, PyTorch) to detect defects on stamped parts from uploaded images.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "Transformers"
+      ],
+      "description": "FastAPI service for stamping-part defect detection using a DETR object-detection model (PyTorch, Hugging Face Transformers).",
+      "topics": [
+        "python",
+        "fastapi",
+        "pytorch",
+        "computer-vision",
+        "object-detection",
+        "quality-control"
+      ]
+    },
+    "ordo_app": {
+      "emoji": "🏠",
+      "title": "ORDO Mobile",
+      "summary": "Mobile app UI for a property agent platform, built with the BLoC pattern.",
+      "stack": [
+        "Flutter",
+        "BLoC"
+      ],
+      "description": "ORDO Mobile: property agent app UI built with Flutter and BLoC.",
+      "topics": [
+        "flutter",
+        "bloc",
+        "real-estate"
+      ]
+    },
+    "flask-backend": {
+      "stack": [
+        "Python",
+        "Flask",
+        "Machine Learning"
+      ],
+      "topics": [
+        "python",
+        "flask",
+        "machine-learning",
+        "rest-api"
+      ],
+      "description": "Capstone project backend (Flask) that serves a machine-learning model over a REST API."
+    },
+    "hapi-backend": {
+      "stack": [
+        "Node.js",
+        "Hapi"
+      ],
+      "topics": [
+        "nodejs",
+        "hapi",
+        "rest-api"
+      ],
+      "description": "Capstone project REST API (Hapi) with API documentation, consumed by the front-end team."
+    },
+    "kokosan": {
+      "stack": [
+        "Flutter",
+        "Dart"
+      ],
+      "description": "Kokosan: Flutter mobile app, final project for Mobile Programming at Politeknik Negeri Semarang.",
+      "topics": [
+        "flutter",
+        "dart",
+        "mobile-app"
+      ]
+    }
+  }
+}
