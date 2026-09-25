@@ -132,8 +132,11 @@ class GitHub:
         match = re.search(r'[?&]page=(\d+)>; rel="last"', headers.get("Link") or "")
         return int(match.group(1)) if match else len(body or [])
 
+    def languages(self, owner: str, repo: str) -> dict[str, int]:
+        return self.get(f"/repos/{owner}/{repo}/languages") or {}
+
     def code_bytes(self, owner: str, repo: str) -> int:
-        return sum((self.get(f"/repos/{owner}/{repo}/languages") or {}).values())
+        return sum(self.languages(owner, repo).values())
 
     def readme(self, owner: str, repo: str) -> str:
         try:
@@ -156,6 +159,9 @@ class Fixture:
 
     def commit_count(self, owner, repo):
         return self.data.get("commits", {}).get(repo, 0)
+
+    def languages(self, owner, repo):
+        return self.data.get("languages", {}).get(repo, {})
 
     def code_bytes(self, owner, repo):
         return self.data.get("code_bytes", {}).get(repo, 0)

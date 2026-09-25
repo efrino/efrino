@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Efrino Wahyu Eko Pambudi, Software Engineer">
+  <title>Efrino Wahyu Eko Pambudi, Software Engineer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#0F2A4F"/>
+      <stop offset="1" stop-color="#1F6FEB"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#58A6FF" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <style>
+    .name { font: 800 52px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #FFFFFF; letter-spacing: -0.5px; }
+    .role { font: 600 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #9ECBFF; }
+    .line { font: 500 18px ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace; fill: #E6EDF3; opacity: 0; }
+    .prompt { font: 700 18px ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace; fill: #3FB950; }
+    .l1 { animation: cycle 12s infinite 0s; }
+    .l2 { animation: cycle 12s infinite 3s; }
+    .l3 { animation: cycle 12s infinite 6s; }
+    .l4 { animation: cycle 12s infinite 9s; }
+    @keyframes cycle { 0% { opacity: 0; } 3% { opacity: 1; } 22% { opacity: 1; } 25% { opacity: 0; } 100% { opacity: 0; } }
+    .cursor { fill: #58A6FF; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .line, .cursor { animation: none; }
+      .l1 { opacity: 1; }
+    }
+  </style>
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
+  <circle cx="1080" cy="40" r="140" fill="#58A6FF" fill-opacity="0.10"/>
+  <circle cx="1130" cy="230" r="90" fill="#3FB950" fill-opacity="0.08"/>
+
+  <text x="600" y="104" class="name" text-anchor="middle">Efrino Wahyu Eko Pambudi</text>
+  <text x="600" y="144" class="role" text-anchor="middle">Software Engineer · Full-Stack · Mobile · Industrial Digitalization</text>
+
+  <g transform="translate(600 200)">
+    <rect x="-330" y="-26" width="660" height="40" rx="8" fill="#0D1117" fill-opacity="0.55" stroke="#30363D"/>
+    <text x="-310" y="0" class="prompt">$</text>
+    <text x="-288" y="0" class="line l1">digitalizing factory workflows at PT Mekar Armada Jaya</text>
+    <text x="-288" y="0" class="line l2">vue 3 · codeigniter · flutter · react · supabase</text>
+    <text x="-288" y="0" class="line l3">from excel spreadsheets to real-time web apps</text>
+    <text x="-288" y="0" class="line l4">shop-floor apps running on real handhelds</text>
+    <rect x="306" y="-15" width="10" height="20" class="cursor"/>
+  </g>
+</svg>

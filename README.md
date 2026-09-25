@@ -1,16 +1,11 @@
 <!-- ============================== HEADER ============================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=180&section=header&text=Efrino%20Wahyu%20Eko%20Pambudi&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Full-Stack%20%E2%80%A2%20Mobile%20%E2%80%A2%20Industrial%20Digitalization&descAlignY=58&descSize=16" alt="Efrino Wahyu Eko Pambudi — Software Engineer" width="100%" />
-
-<a href="https://github.com/efrino">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=Digitalizing+factory+workflows+at+PT+Mekar+Armada+Jaya;Vue+3+%7C+CodeIgniter+%7C+Flutter+%7C+React+%7C+Supabase;From+Excel+spreadsheets+to+real-time+web+apps;Shop-floor+apps+running+on+real+handhelds" alt="Typing summary" />
-</a>
+<img src="assets/banner.svg" alt="Efrino Wahyu Eko Pambudi — Software Engineer · Full-Stack · Mobile · Industrial Digitalization" width="100%" />
 
 <p>
   <img src="https://img.shields.io/badge/📍_Bekasi,_Indonesia-161b22?style=for-the-badge" alt="Location: Bekasi, Indonesia" />
   <img src="https://img.shields.io/badge/Open_to-New_Opportunities-2ea44f?style=for-the-badge" alt="Open to new opportunities" />
-  <img src="https://komarev.com/ghpvc/?username=efrino&style=for-the-badge&color=1f6feb&label=Profile+Views" alt="Profile views" />
 </p>
 
 <p>
@@ -175,29 +170,63 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 
 <table>
   <tr>
-    <td align="center" width="140"><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=vue,react,vite,tailwind,js,ts,html,css&theme=dark" alt="Frontend stack" /></td>
+    <td align="center" width="130"><b>Frontend</b></td>
+    <td>
+    <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    </td>
   </tr>
   <tr>
-    <td align="center"><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=php,nodejs,express,nestjs,python,flask,fastapi&theme=dark" alt="Backend stack" /></td>
+    <td align="center" width="130"><b>Backend</b></td>
+    <td>
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+    <img src="https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white" alt="CodeIgniter" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+    <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+    </td>
   </tr>
   <tr>
-    <td align="center"><b>Mobile</b></td>
-    <td><img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio&theme=dark" alt="Mobile stack" /></td>
+    <td align="center" width="130"><b>Mobile</b></td>
+    <td>
+    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+    <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+    </td>
   </tr>
   <tr>
-    <td align="center"><b>Data &amp; Cloud</b></td>
-    <td><img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite,supabase,firebase,vercel,netlify,docker&theme=dark" alt="Data and cloud stack" /></td>
+    <td align="center" width="130"><b>Data &amp; Cloud</b></td>
+    <td>
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+    <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    </td>
   </tr>
   <tr>
-    <td align="center"><b>Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman,figma&theme=dark" alt="Tooling" /></td>
+    <td align="center" width="130"><b>Tools</b></td>
+    <td>
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
+    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+    </td>
   </tr>
 </table>
 
 **Also:**
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 ![SSE](https://img.shields.io/badge/Server--Sent_Events-30363D?style=flat-square)
 ![SAP](https://img.shields.io/badge/SAP_Integration-0FAAFF?style=flat-square&logo=sap&logoColor=white)
 ![Riverpod](https://img.shields.io/badge/Riverpod-0553B1?style=flat-square)
@@ -226,17 +255,12 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=efrino&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=efrino&show_icons=true&include_all_commits=true&count_private=true&theme=default&hide_border=true&bg_color=00000000" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/efrino/efrino/profile-assets/stats-dark.svg" />
+  <img width="49%" src="https://raw.githubusercontent.com/efrino/efrino/profile-assets/stats-light.svg" alt="GitHub stats: repositories, stars, commits, contributions and streaks" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=efrino&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=00000000" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=efrino&layout=compact&langs_count=8&theme=default&hide_border=true&bg_color=00000000" alt="Top languages" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=efrino&theme=github-dark-blue&hide_border=true&background=00000000" />
-  <img src="https://streak-stats.demolab.com?user=efrino&theme=default&hide_border=true&background=00000000" alt="Contribution streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/efrino/efrino/profile-assets/langs-dark.svg" />
+  <img width="49%" src="https://raw.githubusercontent.com/efrino/efrino/profile-assets/langs-light.svg" alt="Most used languages" />
 </picture>
 
 <picture>
@@ -259,6 +283,6 @@ The fastest way to reach me is by **email**.
 <a href="https://www.linkedin.com/in/efrinowep/"><img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
 <a href="https://efrino.netlify.app"><img src="https://img.shields.io/badge/Visit-Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Visit portfolio" /></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1f6feb,100:0d1117&height=100&section=footer" alt="" width="100%" />
+<img src="assets/footer.svg" alt="" width="100%" />
 
 </div>
