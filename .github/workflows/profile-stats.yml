@@ -1,0 +1,44 @@
+name: Generate profile stats
+
+on:
+  schedule: # daily 23:41 UTC (06:41 WIB)
+    - cron: "41 23 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/profile_stats.py"
+      - "scripts/featured_projects.py"
+      - ".github/workflows/profile-stats.yml"
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render stats and language cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/profile_stats.py --out dist
+
+      - name: Publish cards to the profile-assets branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: profile-assets
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
