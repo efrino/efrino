@@ -254,6 +254,8 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 
 <div align="center">
 
+<!-- Hidden until GitHub Actions can run again and publishes the profile-assets branch.
+     To restore: remove this comment wrapper (keep the two <picture> blocks).
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/efrino/efrino/profile-assets/stats-dark.svg" />
   <img width="49%" src="https://raw.githubusercontent.com/efrino/efrino/profile-assets/stats-light.svg" alt="GitHub stats: repositories, stars, commits, contributions and streaks" />
@@ -262,11 +264,12 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/efrino/efrino/profile-assets/langs-dark.svg" />
   <img width="49%" src="https://raw.githubusercontent.com/efrino/efrino/profile-assets/langs-light.svg" alt="Most used languages" />
 </picture>
+-->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/efrino/efrino/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/efrino/efrino/output/snake.svg" alt="Contribution snake animation" width="100%" />
-</picture>
+<!-- Until the snake workflow runs again, snake-dark.svg doesn't exist, so both themes use snake.svg.
+     To restore: wrap this <img> in <picture> with
+     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/efrino/efrino/output/snake-dark.svg" /> -->
+<img src="https://raw.githubusercontent.com/efrino/efrino/output/snake.svg" alt="Contribution snake animation" width="100%" />
 
 </div>
 
