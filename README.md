@@ -61,18 +61,6 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏷️ <a href="https://github.com/efrino/sto">STO Prep: Stock-Taking Tag System</a></h3>
-      <p>Android app used on the shop floor for stock-taking (STO) at a manufacturing plant. Operators log in with their employee ID, look up parts, print QR tags on the handheld's built-in 58mm thermal printer and scan them back with the counted quantity. Cancellations go through an admin approval flow, and menus follow role-based permissions.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-        <img src="https://img.shields.io/badge/Thermal_Printer-30363D?style=flat-square" alt="Thermal Printer" />
-        <img src="https://img.shields.io/badge/QR_Scanner-30363D?style=flat-square" alt="QR Scanner" />
-        <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
-      </p>
-      <sub>🕒 Updated Sep 2026 · 🔨 19 commits</sub>
-    </td>
-    <td width="50%" valign="top">
       <h3>🛍️ <a href="https://github.com/efrino/nayea">Nayea: Modest Fashion E-commerce</a></h3>
       <p>Full storefront and admin panel for a hijab and modest-fashion brand: catalogue, cart, checkout and wishlist, live customer chat, order, payment and banner management, shipping-cost serverless functions and transactional order emails. Supabase Postgres secured with Row Level Security.</p>
       <p>
@@ -82,10 +70,52 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
         <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
         <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
       </p>
-      <sub>🕒 Updated Jul 2026 · 🔨 63 commits</sub>
+      <sub>🕒 Updated Sep 2026 · 🔨 64 commits</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📁 <a href="https://github.com/efrino/efrino-portfolio">efrino-portfolio</a></h3>
+      <p></p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+      </p>
+      <sub>🕒 Updated Oct 2026 · 🔨 38 commits</sub>
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h3>🏷️ <a href="https://github.com/efrino/sto">STO Prep: Stock-Taking Tag System</a></h3>
+      <p>Android app used on the shop floor for stock-taking (STO) at a manufacturing plant. Operators log in with their employee ID, look up parts, print QR tags on the handheld's built-in 58mm thermal printer and scan them back with the counted quantity. Cancellations go through an admin approval flow, and menus follow role-based permissions.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Thermal_Printer-30363D?style=flat-square" alt="Thermal Printer" />
+        <img src="https://img.shields.io/badge/QR_Scanner-30363D?style=flat-square" alt="QR Scanner" />
+        <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
+      </p>
+      <sub>🕒 Updated Sep 2026 · 🔨 20 commits</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📥 <a href="https://github.com/efrino/scan_gr">Scan GR: Offline-Ready Receiving Scanner</a></h3>
+      <p>Barcode scanning app for goods receiving. Scans are queued locally when the network drops and synced later, with login, scan history and a lightweight drawer navigation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
+        <img src="https://img.shields.io/badge/Offline_Queue-30363D?style=flat-square" alt="Offline Queue" />
+      </p>
+      <sub>🕒 Updated Oct 2026 · 🔨 24 commits</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚚 <a href="https://github.com/efrino/my_armada">My Armada: Warehouse Scan Operations</a></h3>
+      <p>Internal operations app for warehouse scanning: camera or manual barcode scan-in, scan-out and stock-taking, scan history, area management, and role-based permissions with in-app user management.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
+        <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
+      </p>
+      <sub>🕒 Updated Sep 2026 · ⭐ 1</sub>
+    </td>
     <td width="50%" valign="top">
       <h3>📱 <a href="https://github.com/efrino/meca_learning_app">Meca Learning: Industrial Training App</a></h3>
       <p>Training app for mechanics: learning modules, quizzes, error-code lookup and animations, with PDF, Excel and video lessons delivered from Google Drive and cached for offline use. Tracks learner activity, sends push notifications, includes an admin dashboard and builds for iOS through Codemagic.</p>
@@ -97,41 +127,7 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
         <img src="https://img.shields.io/badge/Hive-FFB300?style=flat-square" alt="Hive" />
         <img src="https://img.shields.io/badge/Codemagic-F45E3F?style=flat-square&logo=codemagic&logoColor=white" alt="Codemagic" />
       </p>
-      <sub>🕒 Updated Jan 2026 · 🔨 11 commits</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚚 <a href="https://github.com/efrino/my_armada">My Armada: Warehouse Scan Operations</a></h3>
-      <p>Internal operations app for warehouse scanning: camera or manual barcode scan-in, scan-out and stock-taking, scan history, area management, and role-based permissions with in-app user management.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
-        <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
-      </p>
-      <sub>🕒 Updated Dec 2025</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧑‍💼 <a href="https://github.com/efrino/admin-asto">Meca Admin Console</a></h3>
-      <p>Web admin console behind the Meca Learning app. Manages users, modules, quizzes, error codes, animations and activity logs, with bulk import of quizzes and error codes from Excel and Google Drive content integration.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white" alt="React" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/Excel_Import-30363D?style=flat-square" alt="Excel Import" />
-      </p>
-      <sub>🕒 Updated Jan 2026</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📥 <a href="https://github.com/efrino/scan_gr">Scan GR: Offline-Ready Receiving Scanner</a></h3>
-      <p>Barcode scanning app for goods receiving. Scans are queued locally when the network drops and synced later, with login, scan history and a lightweight drawer navigation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
-        <img src="https://img.shields.io/badge/Offline_Queue-30363D?style=flat-square" alt="Offline Queue" />
-      </p>
-      <sub>🕒 Updated Jul 2026</sub>
+      <sub>🕒 Updated Sep 2026 · 🔨 12 commits</sub>
     </td>
   </tr>
 </table>
@@ -142,18 +138,18 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 
 | Project | Description | Stack | Updated |
 |---|---|---|---|
+| [admin-asto](https://github.com/efrino/admin-asto) | Admin console for the Meca Learning app: users, modules, quizzes, error codes, activity logs, Excel bulk import. React + Supabase. | React · Vite · Tailwind CSS · Supabase · Excel Import | Sep 2026 |
+| [backend-growsmart](https://github.com/efrino/backend-growsmart) | 2 Backend for GrowSmart | Jupyter Notebook | Jun 2025 |
 | [rest_maj1](https://github.com/efrino/rest_maj1) | REST backend for manufacturing operations: inventory, Andon, kanban, maintenance, forecasting and SAP integration endpoints. CodeIgniter + JWT + MySQL. | PHP · CodeIgniter · MySQL · JWT · SAP | Nov 2025 |
-| [ordo_app](https://github.com/efrino/ordo_app) | ORDO Mobile: property agent app UI built with Flutter and BLoC. | Flutter · BLoC | May 2026 |
-| [wss-adm](https://github.com/efrino/wss-adm) | Handheld scan-in app with audio/vibration feedback, history and PDF report printing. Flutter. | Flutter · Barcode Scanner · PDF | Dec 2025 |
-| [mechanic-manual-api](https://github.com/efrino/mechanic-manual-api) | REST API for a mechanic manual app: JWT auth, modules, error codes, activity logs, offline sync. Express + MySQL, Helmet, rate limiting. | Node.js · Express · MySQL · JWT | Dec 2025 |
 | [kokosan](https://github.com/efrino/kokosan) | Kokosan: Flutter mobile app, final project for Mobile Programming at Politeknik Negeri Semarang. | Flutter · Dart | Jan 2024 |
-| [qc_model](https://github.com/efrino/qc_model) | FastAPI service for stamping-part defect detection using a DETR object-detection model (PyTorch, Hugging Face Transformers). | Python · FastAPI · PyTorch · Transformers | Nov 2025 |
-| [hapi-backend](https://github.com/efrino/hapi-backend) | Capstone project REST API (Hapi) with API documentation, consumed by the front-end team. | Node.js · Hapi | Jun 2025 |
 | [intermediate-dicoding](https://github.com/efrino/intermediate-dicoding) | Submission project for class of Web Development Intermediate in Dicoding platform | JavaScript | Jun 2025 |
+| [ordo_app](https://github.com/efrino/ordo_app) | ORDO Mobile: property agent app UI built with Flutter and BLoC. | Flutter · BLoC | May 2026 |
+| [hapi-backend](https://github.com/efrino/hapi-backend) | Capstone project REST API (Hapi) with API documentation, consumed by the front-end team. | Node.js · Hapi | Jun 2025 |
+| [wss-adm](https://github.com/efrino/wss-adm) | Handheld scan-in app with audio/vibration feedback, history and PDF report printing. Flutter. | Flutter · Barcode Scanner · PDF | Dec 2025 |
 
 </details>
 
-<sub>🤖 Ranked automatically by <a href="scripts/featured_projects.py">activity, code and documentation score</a> · last updated 25 Sep 2026</sub>
+<sub>🤖 Ranked automatically by <a href="scripts/featured_projects.py">activity, code and documentation score</a> · last updated 26 Oct 2026</sub>
 <!-- FEATURED-PROJECTS:END -->
 
 ### 🔒 Internal & Private Work
