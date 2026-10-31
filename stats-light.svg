@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub Stats">
+  <title>GitHub Stats</title>
+  <style>
+    .title { font: 600 18px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #0969DA; }
+    .label { font: 400 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #656D76; }
+    .value { font: 700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #1F2328; }
+    .big   { font: 700 26px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #1F2328; }
+    .small { font: 400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; fill: #656D76; }
+    .fade  { opacity: 0; animation: fadein .6s ease-out forwards; }
+    @keyframes fadein { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; } }
+  </style>
+  <rect x="0.5" y="0.5" rx="10" width="494" height="194" fill="#FFFFFF" stroke="#D0D7DE"/>
+  <text x="25" y="36" class="title">GitHub Stats</text>
+  <g class="fade" style="animation-delay:0ms"><circle cx="31" cy="69" r="4" fill="#0969DA"/><text x="45" y="74" class="label">Public repositories</text><text x="330" y="74" class="value" text-anchor="end">46</text></g>
+  <g class="fade" style="animation-delay:120ms"><circle cx="31" cy="99" r="4" fill="#0969DA"/><text x="45" y="104" class="label">On GitHub since</text><text x="330" y="104" class="value" text-anchor="end">2023</text></g>
+  <g class="fade" style="animation-delay:240ms"><circle cx="31" cy="129" r="4" fill="#0969DA"/><text x="45" y="134" class="label">Commits in public repos</text><text x="330" y="134" class="value" text-anchor="end">345</text></g>
+  <g class="fade" style="animation-delay:360ms"><circle cx="31" cy="159" r="4" fill="#0969DA"/><text x="45" y="164" class="label">Contributions (last 12 months)</text><text x="330" y="164" class="value" text-anchor="end">777</text></g>
+  <line x1="355" y1="52" x2="355" y2="178" stroke="#D0D7DE"/>
+  <g class="fade" style="animation-delay:480ms"><text x="425" y="88" class="big" text-anchor="middle">2</text><text x="425" y="108" class="small" text-anchor="middle">Current streak (days)</text></g>
+  <g class="fade" style="animation-delay:600ms"><text x="425" y="152" class="big" text-anchor="middle">13</text><text x="425" y="172" class="small" text-anchor="middle">Longest streak (days)</text></g>
+</svg>
