@@ -73,6 +73,21 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
       <sub>🕒 Updated Sep 2026 · 🔨 64 commits</sub>
     </td>
     <td width="50%" valign="top">
+      <h3>📱 <a href="https://github.com/efrino/meca_learning_app">Meca Learning: Industrial Training App</a></h3>
+      <p>Training app for mechanics: learning modules, quizzes, error-code lookup and animations, with PDF, Excel and video lessons delivered from Google Drive and cached for offline use. Tracks learner activity, sends push notifications, includes an admin dashboard and builds for iOS through Codemagic.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Riverpod-0553B1?style=flat-square" alt="Riverpod" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+        <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" />
+        <img src="https://img.shields.io/badge/Hive-FFB300?style=flat-square" alt="Hive" />
+        <img src="https://img.shields.io/badge/Codemagic-F45E3F?style=flat-square&logo=codemagic&logoColor=white" alt="Codemagic" />
+      </p>
+      <sub>🕒 Updated Sep 2026 · 🔨 12 commits · ⭐ 1</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>📁 <a href="https://github.com/efrino/efrino-portfolio">efrino-portfolio</a></h3>
       <p></p>
       <p>
@@ -80,8 +95,6 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
       </p>
       <sub>🕒 Updated Oct 2026 · 🔨 38 commits</sub>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🏷️ <a href="https://github.com/efrino/sto">STO Prep: Stock-Taking Tag System</a></h3>
       <p>Android app used on the shop floor for stock-taking (STO) at a manufacturing plant. Operators log in with their employee ID, look up parts, print QR tags on the handheld's built-in 58mm thermal printer and scan them back with the counted quantity. Cancellations go through an admin approval flow, and menus follow role-based permissions.</p>
@@ -93,16 +106,6 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
         <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
       </p>
       <sub>🕒 Updated Sep 2026 · 🔨 20 commits</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚚 <a href="https://github.com/efrino/my_armada">My Armada: Warehouse Scan Operations</a></h3>
-      <p>Internal operations app for warehouse scanning: camera or manual barcode scan-in, scan-out and stock-taking, scan history, area management, and role-based permissions with in-app user management.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
-        <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
-      </p>
-      <sub>🕒 Updated Sep 2026 · ⭐ 1</sub>
     </td>
   </tr>
   <tr>
@@ -117,17 +120,14 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
       <sub>🕒 Updated Oct 2026 · 🔨 24 commits</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>📱 <a href="https://github.com/efrino/meca_learning_app">Meca Learning: Industrial Training App</a></h3>
-      <p>Training app for mechanics: learning modules, quizzes, error-code lookup and animations, with PDF, Excel and video lessons delivered from Google Drive and cached for offline use. Tracks learner activity, sends push notifications, includes an admin dashboard and builds for iOS through Codemagic.</p>
+      <h3>🚚 <a href="https://github.com/efrino/my_armada">My Armada: Warehouse Scan Operations</a></h3>
+      <p>Internal operations app for warehouse scanning: camera or manual barcode scan-in, scan-out and stock-taking, scan history, area management, and role-based permissions with in-app user management.</p>
       <p>
         <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/Riverpod-0553B1?style=flat-square" alt="Riverpod" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase" />
-        <img src="https://img.shields.io/badge/Hive-FFB300?style=flat-square" alt="Hive" />
-        <img src="https://img.shields.io/badge/Codemagic-F45E3F?style=flat-square&logo=codemagic&logoColor=white" alt="Codemagic" />
+        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
+        <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
       </p>
-      <sub>🕒 Updated Sep 2026 · 🔨 12 commits</sub>
+      <sub>🕒 Updated Sep 2026 · ⭐ 1</sub>
     </td>
   </tr>
 </table>
@@ -149,7 +149,7 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 
 </details>
 
-<sub>🤖 Ranked automatically by <a href="scripts/featured_projects.py">activity, code and documentation score</a> · last updated 02 Nov 2026</sub>
+<sub>🤖 Ranked automatically by <a href="scripts/featured_projects.py">activity, code and documentation score</a> · last updated 09 Nov 2026</sub>
 <!-- FEATURED-PROJECTS:END -->
 
 ### 🔒 Internal & Private Work
