@@ -110,16 +110,6 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📥 <a href="https://github.com/efrino/scan_gr">Scan GR: Offline-Ready Receiving Scanner</a></h3>
-      <p>Barcode scanning app for goods receiving. Scans are queued locally when the network drops and synced later, with login, scan history and a lightweight drawer navigation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
-        <img src="https://img.shields.io/badge/Offline_Queue-30363D?style=flat-square" alt="Offline Queue" />
-      </p>
-      <sub>🕒 Updated Oct 2026 · 🔨 24 commits</sub>
-    </td>
-    <td width="50%" valign="top">
       <h3>🚚 <a href="https://github.com/efrino/my_armada">My Armada: Warehouse Scan Operations</a></h3>
       <p>Internal operations app for warehouse scanning: camera or manual barcode scan-in, scan-out and stock-taking, scan history, area management, and role-based permissions with in-app user management.</p>
       <p>
@@ -128,6 +118,16 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
         <img src="https://img.shields.io/badge/REST_API-30363D?style=flat-square" alt="REST API" />
       </p>
       <sub>🕒 Updated Sep 2026 · ⭐ 1</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📥 <a href="https://github.com/efrino/scan_gr">Scan GR: Offline-Ready Receiving Scanner</a></h3>
+      <p>Barcode scanning app for goods receiving. Scans are queued locally when the network drops and synced later, with login, scan history and a lightweight drawer navigation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+        <img src="https://img.shields.io/badge/Barcode_Scanner-30363D?style=flat-square" alt="Barcode Scanner" />
+        <img src="https://img.shields.io/badge/Offline_Queue-30363D?style=flat-square" alt="Offline Queue" />
+      </p>
+      <sub>🕒 Updated Oct 2026 · 🔨 24 commits</sub>
     </td>
   </tr>
 </table>
@@ -149,7 +149,7 @@ domain:      [PPIC, MRP, BOM, Production scheduling, Stock rolling, Inventory]
 
 </details>
 
-<sub>🤖 Ranked automatically by <a href="scripts/featured_projects.py">activity, code and documentation score</a> · last updated 09 Nov 2026</sub>
+<sub>🤖 Ranked automatically by <a href="scripts/featured_projects.py">activity, code and documentation score</a> · last updated 23 Nov 2026</sub>
 <!-- FEATURED-PROJECTS:END -->
 
 ### 🔒 Internal & Private Work
